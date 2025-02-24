@@ -1,0 +1,27 @@
+# Ignore virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Ignore executable files (Windows)
+*.exe
+
+# Ignore other common temporary files and directories
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+\#*
+*.tmp
+*.log
+
+# Optionally, ignore specific files or directories
+# config.ini  # Example: Ignore a specific configuration file
+# my_secret_directory/ # Example: Ignore a directory containing secrets
+
+# If you have other files/folders you want to ignore, add them here.
